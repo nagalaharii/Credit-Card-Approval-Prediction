@@ -1,8 +1,32 @@
 # Dataset
 
-This folder contains the dataset used for the Credit Card Approval Prediction project.
+## Dataset Description
 
-The dataset is used to train and evaluate machine learning models for predicting whether a credit card application should be approved or rejected.
+This project uses two datasets.
 
-> Note:
-> The original SkillWallet project linked to a Credit Card Fraud Detection dataset, which does not match the project objective. Therefore, this project uses a Credit Card Approval dataset that aligns with the project requirements.
+### 1. application_record.csv
+
+Contains applicant demographic and financial information such as:
+
+- Applicant ID
+- Gender
+- Income
+- Education
+- Family Status
+- Housing Type
+- Employment Days
+- Occupation
+- Income Type
+
+### 2. credit_record.csv
+
+Contains applicant credit payment history including:
+
+- Applicant ID
+- Monthly Balance
+- Payment Status
+- Credit History
+
+## Purpose
+
+Both datasets are merged using the Applicant ID during the data preprocessing stage to build the final dataset used for machine learning.
